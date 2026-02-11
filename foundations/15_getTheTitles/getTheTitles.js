@@ -1,4 +1,8 @@
-const getTheTitles = function() {
+const getTheTitles = function(arr) {
+    const titleArr = arr.map(book => {
+        return book.title; // curly braces must have return
+    })
+    return titleArr;
 
 };
 
